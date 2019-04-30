@@ -1,0 +1,29 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #f6f6f6;
+
+  nav {
+    background: #f60;
+    padding: 1em;
+
+    a {
+      text-decoration: none;
+    }
+
+    .nav__back-btn {
+      font-size: 0.9rem;
+      padding-right: 1em;
+      cursor: pointer;
+    }
+
+    .nav__title {
+      font-weight: bold;
+    }
+  }
+
+  nav > * {
+    display: inline-block;
+    color: black;
+  }
+}
